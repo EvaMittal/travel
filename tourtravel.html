@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navigation</title>
+    <style>
+        /* .container{
+           background-image: url("images\images(1).jpg");
+           background-repeat: no-repeat;
+        } */
+        /* body{
+            background-image: url('https://1.bp.blogspot.com/-AnyyfThjDbw/YRYYx-2FquI/AAAAAAAAMUU/4zNSVgrKcnM8HX6MaeeL4yCEazRl2U_LgCLcBGAsYHQ/w640-h534/IMG_20210813_121236.jpg');
+            background-repeat:none ;
+            background-size: cover;
+             position: relative;
+            height: 100px;
+        }  */
+        /* html{
+            background:url('https://1.bp.blogspot.com/-AnyyfThjDbw/YRYYx-2FquI/AAAAAAAAMUU/4zNSVgrKcnM8HX6MaeeL4yCEazRl2U_LgCLcBGAsYHQ/w640-h534/IMG_20210813_121236.jpg') ;
+            background-size: cover;
+            height: 100px;
+            position: relative;
+        } */
+
+        .navbar {
+            background-color: rgb(145, 20, 228);
+            border-radius: 30px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: red
+        }
+
+        .search {
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+
+        body {
+            /* background-image: url('img_girl.jpg'); */
+            /* background-repeat: no-repeat; */
+            background-color: rgb(236, 201, 235);
+            /* background-image:url('D:\Web development\images\images (1).jpg') ; */
+            background-image: url('images (1).jpg');
+            background-repeat: no-repeat;
+            background-image: url('images.jpg');
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-attachment: scroll;
+            /* background-size: contain; */
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .containe {
+            background-image: url('https://cdn.pixabay.com/photo/2020/01/21/08/11/indian-temple-4782312__480.jpg');
+            /* background-image:url('https://www.oneindia.com/img/2018/09/mathura-1-1535976657.jpg'); */
+            /* background-size: cover; */
+            background-repeat: no-repeat;
+            height: 500px;
+            width: 750px;
+            position: relative;
+        }
+
+        /* display: flex; */
+        /* text-align: center; */
+        /* color: rgb(245, 12, 12); */
+        /* background-color: rgb(9, 9, 238); */
+        /* padding-left: 300px; */
+        /* font-family: 'Times New Roman', Times, serif; */
+        /* font-size: 25px; */
+        /* background-image: url('D:\Web development\images\images.jpg'); */
+
+        .contain {
+            text-align: center;
+            /* padding:40px; */
+            /* align-content: flex-end; */
+            /* position: absolute; */
+            /* justify-content: center; */
+            /* align-self: center; */
+        }
+
+        #i1 {
+            /* align-content: center; */
+            /* justify-content: center; */
+            color: chartreuse;
+            font-size: 25px;
+        }
+
+        #i2 {
+            color: rgb(139, 0, 0);
+            font-size: 20px;
+        }
+        .images {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .image {
+            display: flex;
+            flex-direction: column;
+            padding: 20px 20px;
+            justify-content: center;
+        }
+
+        #i3 {
+            text-align: center;
+        }
+
+        #i4 {
+            text-align: center;
+        }
+
+        #i5 {
+            text-align: center;
+        }
+
+        .nrow {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        #i6 {
+            text-align: center;
+        }
+
+        #i7 {
+            text-align: center;
+        }
+
+        #i8 {
+            text-align: center;
+        }
+
+        .nrow2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        #i9 {
+            text-align: center;
+        }
+
+        #i10 {
+            text-align: center;
+        }
+
+        #i11 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <img src="travel-collage-famous-places-world-260nw-1144071677.webp" alt="" height="30px" width="200px">
+
+    <div class="container">
+        <div class="containe">
+            <div class="contain" id="i1">
+                <h1>Mathura!</h1>
+            </div>
+            <div class="contain" id="i2">
+                <h3>The wonderland!</h3>
+            </div>
+            <!-- <img src="https://cdn.pixabay.com/photo/2020/01/21/08/11/indian-temple-4782312__480.jpg" alt="Poor connection" height="500px" width="1000px"> -->
+        </div>
+    </div>
+    <h3> Directions ----</h3>
+    <div class="contain">
+        <a href="https://www.mapsofindia.com/maps/uttarpradesh/districts/mathura.htm">
+            <img src="https://www.mapsofindia.com/mathura/mathura-city-thumb.jpg" alt="">
+        </a>
+    </div>
+
+    <h2>Few Places of Visit:</h2>
+    <div class="images">
+        <div class="image" id="i3">
+            <h4>Shri Krishna Janmbhumi</h4>
+            <img src="https://www.oneindia.com/img/2018/09/mathura-1-1535976657.jpg" alt="" height="300px"
+                width="300px">
+        </div>
+        <div class="image" id="i4">
+            <h4>Prem Mandir</h4>
+            <img src="https://www.nativeplanet.com/img/2018/08/prem-mandir-1533534388.jpg" alt="" height="300px"
+                width="300px">
+        </div>
+        <div class="image" id="i5">
+            <h4>Vishram Ghat</h4>
+            <img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/07/Visham-Ghat.jpg" alt="" height="300px"
+                width="300px">
+        </div>
+    </div>
+    <div class="nrow">
+        <div class="image" id="i6">
+            <h4>Mathura Museum</h4>
+            <img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/07/Mathura-Museum-wikipedia.jpg" alt=""
+                height="300px" width="300px">
+        </div>
+        <div class="image" id="i7">
+            <h4>Gita Mandir</h4>
+            <img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/07/Gita-Mandir.jpg" alt="" height="300px"
+                width="300px">
+        </div>
+        <div class="image" id="i8">
+            <h4>Nand Bhawan</h4>
+            <img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/07/Nand-Bhawan-mapio.jpg" alt=""
+                height="300px" width="300px">
+        </div>
+    </div>
+    <div class="nrow2">
+        <div class="image" id="i9">
+            <h4>Krishna Balaram Mandir</h4>
+            <img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/07/Krishna-Balarama-Mandir.jpg" alt=""
+                height="300px" width="300px">
+        </div>
+        <div class="image" id="i10">
+            <h4>Rangji Mandir</h4>
+            <img src="https://www.fabhotels.com/blog/wp-content/uploads/2021/01/13.-Rangji-Mandir-_526365748.jpg" alt=""
+                height="300px" width="300px">
+        </div>
+        <div class="image" id="i11">
+            <h4>Banke Bihari Temple</h4>
+            <img src="https://images.bhaskarassets.com/web2images/521/2020/03/09/m1_1583748316.jpg" alt="" height="300px" width="300px">
+        </div>
+    </div>
+</body>
+
+</html>
